@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+deepseek_key.txt
+_filtered/
+watchlist.json.bak_*

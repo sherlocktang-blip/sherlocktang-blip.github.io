@@ -30,7 +30,7 @@ git push
 if errorlevel 1 goto :err
 
 echo.
-echo ✅ 完成！网站将在几分钟内自动更新：https://daveliao999.github.io
+echo ✅ 完成！网站将在几分钟内自动更新：https://sherlocktang-blip.github.io
 pause
 exit /b 0
 

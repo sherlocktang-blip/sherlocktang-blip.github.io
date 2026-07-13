@@ -674,7 +674,14 @@ def get_market_hotspot(client, today):
             txt = re.sub(r'^```(?:json)?\s*', '', txt, flags=re.MULTILINE)
             txt = re.sub(r'\s*```\s*$', '', txt, flags=re.MULTILINE)
             m = re.search(r'\{[\s\S]*\}', txt)
-            data = json.loads(m.group()) if m else json.loads(txt)
+            raw = m.group() if m else txt
+            # Try strict parse first, fall back to json_repair (同个股分析路径)
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError:
+                data = json_repair.repair_json(raw, return_objects=True)
+                if not isinstance(data, dict):
+                    raise ValueError(f"Cannot parse hotspot JSON even after repair: {raw[:200]}")
             us_items = (data.get("us") or {}).get("items") or []
             hk_items = (data.get("hk") or {}).get("items") or []
             if not us_items and not hk_items:

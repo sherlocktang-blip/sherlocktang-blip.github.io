@@ -4,3 +4,7 @@ __pycache__/
 deepseek_key.txt
 _filtered/
 watchlist.json.bak_*
+lists_input.csv
+lists_input.xlsx
+建议结构*.csv
+*组合概览*.xlsx

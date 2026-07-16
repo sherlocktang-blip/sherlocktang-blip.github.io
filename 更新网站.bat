@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-title Olive FCN Watchlist 一键更新
+title FCN Watchlist 一键更新
 
 echo ══════════════════════════════════════════════
 echo   FCN Watchlist 一键更新
@@ -30,7 +30,7 @@ git push
 if errorlevel 1 goto :err
 
 echo.
-echo ✅ 完成！网站将在几分钟内自动更新：https://sherlocktang-blip.github.io
+echo ✅ 完成！网站将在几分钟内自动更新：https://structuredproducts-blip.github.io
 pause
 exit /b 0
 

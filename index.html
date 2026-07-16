@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Olive Asset Management · 私行结构化产品平台</title>
+<title>结构化团队 · 私行结构化产品平台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <script>
   /* 尽早应用主题，避免刷新时闪现亮色（FOUC）。默认亮色，客户选择存 localStorage */
-  (function(){try{var t=localStorage.getItem('olive-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();
+  (function(){try{var t=localStorage.getItem('sp-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -254,8 +254,8 @@
   /* ── Grain（扁平规范：无纹理）── */
   .grain{position:relative;}
 
-  /* ── Olive mark ── */
-  .olive-mark{border:1.4px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;background:transparent;}
+  /* ── Team mark ── */
+  .team-mark{border:1.4px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;background:transparent;}
 
   /* ── Scrollbar ── */
   ::-webkit-scrollbar{width:6px;height:6px;}
@@ -643,7 +643,7 @@
       <h1 class="font-display text-5xl md:text-6xl font-medium mb-5 leading-tight">
         本周<span class="text-gold italic"> 精选</span>
       </h1>
-      <p class="text-ink-2 max-w-xl leading-relaxed mb-10">由 Olive 产品部资深团队从量化模型 TOP 30 中精选 5 只，每只附详细推荐逻辑、市场观点与风险提示。</p>
+      <p class="text-ink-2 max-w-xl leading-relaxed mb-10">由结构化团队从量化模型 TOP 30 中精选 5 只，每只附详细推荐逻辑、市场观点与风险提示。</p>
       <div class="flex flex-wrap gap-8 text-sm border-t border-line pt-6">
         <div><span class="text-ink-3">本周主题</span><span class="ml-3 text-gold" id="featured-theme"></span></div>
         <div><span class="text-ink-3">发布日期</span><span class="ml-3 num" id="featured-date"></span></div>
@@ -760,8 +760,8 @@ let DATA = { meta: {}, stocks: [] };
 let isAdmin = false;
 let currentEditCode = null;
 let currentAdminTab = 'stocks';
-const LS_KEY = 'olive_admin_draft';
-const ADMIN_PASSWORD = 'olive2026';
+const LS_KEY = 'sp_admin_draft';
+const ADMIN_PASSWORD = 'sp2026';
 let _sgId = 0;
 
 // ═══ Draft ═══
@@ -1236,7 +1236,7 @@ function buildReport(s){
     <div class="card"><h2><span class="idx">D·1</span>风险提示</h2><ul class="risk">${risks}</ul></div></section>`;
 
   const foot=`<div class="foot">本材料仅供参考，不构成投资建议；投资有风险，决策需谨慎。<br>
-    <span class="src">数据来源：富途 OpenAPI · Yahoo Finance 日线收盘 · AI 辅助分析（人工复核中）· 数据截至 ${_esc(spDate)}</span><br>Olive Asset Management · ${_esc(DATA.meta.publishDate)}</div>`;
+    <span class="src">数据来源：富途 OpenAPI · Yahoo Finance 日线收盘 · AI 辅助分析（人工复核中）· 数据截至 ${_esc(spDate)}</span><br>结构化团队 · ${_esc(DATA.meta.publishDate)}</div>`;
 
   return head+nav+partA+partB+partC+partD+foot;
 }
@@ -2140,7 +2140,7 @@ function renderAdminHelp(body){
         <i data-lucide="info" class="w-5 h-5 text-gold mt-0.5 flex-shrink-0"></i>
         <p class="text-sm">只有「推送 watchlist.json 到 GitHub」之后，客户访问的网站才会看到新数据。每周只需 git push 一个文件。</p>
       </div>
-      <div class="text-xs text-ink-3 pt-4 border-t border-line">后台密码：<code class="font-mono text-ink-2">olive2026</code>（修改请编辑 index.html 中的 <code class="font-mono">ADMIN_PASSWORD</code>）</div>
+      <div class="text-xs text-ink-3 pt-4 border-t border-line">后台密码：<code class="font-mono text-ink-2">sp2026</code>（修改请编辑 index.html 中的 <code class="font-mono">ADMIN_PASSWORD</code>）</div>
     </div>`;
   lucide.createIcons();
 }
@@ -2298,7 +2298,7 @@ function toggleTheme(){
   const dark=root.getAttribute('data-theme')==='dark';
   if(dark){root.removeAttribute('data-theme');}
   else{root.setAttribute('data-theme','dark');}
-  try{localStorage.setItem('olive-theme',dark?'light':'dark');}catch(e){}
+  try{localStorage.setItem('sp-theme',dark?'light':'dark');}catch(e){}
   // 同步已打开的详情页（Shadow DOM host 通过属性触发暗色 token）
   document.querySelectorAll('.report-host').forEach(h=>{
     if(dark)h.removeAttribute('data-theme');else h.setAttribute('data-theme','dark');
@@ -2321,13 +2321,13 @@ function setupSections(){
     bar.innerHTML=`<div class="sec-bar-inner"><span class="sec-bar-t">${title}</span><i data-lucide="chevron-down" class="sec-chev"></i></div>`;
     bar.addEventListener('click',()=>toggleSec(sec));
     sec.insertBefore(bar,inner);
-    if(localStorage.getItem('olive-sec-'+sec.id)==='1')sec.classList.add('is-collapsed');
+    if(localStorage.getItem('sp-sec-'+sec.id)==='1')sec.classList.add('is-collapsed');
   });
   lucide.createIcons();
 }
 function toggleSec(sec){
   sec.classList.toggle('is-collapsed');
-  try{localStorage.setItem('olive-sec-'+sec.id,sec.classList.contains('is-collapsed')?'1':'0');}catch(e){}
+  try{localStorage.setItem('sp-sec-'+sec.id,sec.classList.contains('is-collapsed')?'1':'0');}catch(e){}
 }
 
 // ═══ 顶部快速跳转 ═══

@@ -667,7 +667,7 @@ def get_market_hotspot(client, today):
     for attempt in range(3):
         try:
             resp = client.chat.completions.create(
-                model=MODEL, max_tokens=3500,
+                model=MODEL, max_tokens=8000,   # 3500 会截断中文 JSON → 解析必挂
                 messages=[{"role": "system", "content": HOTSPOT_SYSTEM},
                           {"role": "user",   "content": prompt}])
             txt = resp.choices[0].message.content.strip()
@@ -684,8 +684,9 @@ def get_market_hotspot(client, today):
                     raise ValueError(f"Cannot parse hotspot JSON even after repair: {raw[:200]}")
             us_items = (data.get("us") or {}).get("items") or []
             hk_items = (data.get("hk") or {}).get("items") or []
-            if not us_items and not hk_items:
-                raise ValueError("empty items")
+            # 完整性校验：必须美股/港股各 2 条，残缺（多为截断修复所致）视为失败重试
+            if len(us_items) < 2 or len(hk_items) < 2:
+                raise ValueError(f"items incomplete: us={len(us_items)} hk={len(hk_items)} (need 2+2)")
             print(f"  ✅  每日热点：美股 {len(us_items)} 条 · 港股 {len(hk_items)} 条")
             return {"generatedAt": today.strftime("%Y-%m-%d"),
                     "date": f"{today.year}/{today.month}/{today.day}",

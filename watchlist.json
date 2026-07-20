@@ -25,26 +25,26 @@
    "us": {
     "items": [
      {
-      "headline": "芯片股疲软拖累大盘，标普500指数收低",
-      "facts": "华尔街上周五收低，半导体板块的弱势抵消了稳健的企业财报和经济数据。市场在关键财报周前面临中东紧张局势和油价反弹的压力，芯片股下跌成为主要拖累。",
-      "stance": "bearish",
-      "impact": "半导体板块疲弱直接拖累费城半导体指数及纳斯达克指数，并抑制整体科技股风险偏好。在Big Tech密集发布财报前，市场对AI等前期热门板块的盈利兑现能力产生忧虑，可能导致资金从高位芯片股流出。",
+      "headline": "美股期货走高，投资者静待大型科技巨头财报",
+      "facts": "华尔街股指期货在本周大型科技股财报公布前小幅走高；标普500、纳斯达克期货均录得上涨，市场关注Alphabet、英特尔等公司业绩将如何影响AI交易情绪。",
+      "stance": "bullish",
+      "impact": "若大型科技股财报超预期，科技板块将获得直接提振，尤其AI相关业务指引可能进一步强化市场对科技股的乐观情绪，从而支撑整体大盘。",
       "sources": [
        {
-        "title": "Reuters · 美股收低，芯片弱势抵消稳健财报",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGU5QUxvUmRMUXgzYmxBbXIxRnM5aTE2Q014TV9HeVlIdVQ0RGV4aWx3a0RMQ2djdUdvSEwtX2diaDZ2QkhfaWE4WmFpb1pWTzlsajhWaTdqYWp4N0hnSjRRWGVIQU93VnA1czVqOGZYekhOMDNWMmZFSnVxTmxybHhxR2NLTVJDR3NxWVE5ZDFEUC11N2NvU0NXSTJrbTJXbXNsQjZsZklUb19vVy1wMi1mU1YxSGc?oc=5"
+        "title": "Reuters · Wall St futures edge higher ahead of this week's megacap earnings",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOakxUc2hmUzNWRUJsczdpQTNsVHY4ZURqeFpTOEZkSFlGMk8zRFZxZHE5aHNIRUtTYzAwejgweG55eXNZQTc5S083Vm9HbGQ4T1E1S1RBbjcxQVJGdGFwcnNJM0pIbzRZZGtSV3hBQUZLSVp4V0pXUFRKMGZyZ0xqY0VIaHBtUjItQUY5dXgzREZYT0xUNWJJTkxlSUhrUS1FczhIYkV6VDJHQndKOFJJUm5zYy1OdVV3dVlUWGFrQjB2OGN0TUE?oc=5"
        }
       ]
      },
      {
-      "headline": "盈利增长门槛提高，美股反弹面临新考验",
-      "facts": "随着财报季推进，企业利润增长的预期门槛被大幅抬高，对当前美股反弹构成挑战。尽管已公布业绩的公司多数超预期，但分析师一致认为后续保持超预期节奏的难度明显上升。",
-      "stance": "neutral",
-      "impact": "盈利预期门槛上升意味着即使业绩符合或略超预期，市场反应也可能趋于平淡，削弱财报季对指数的拉动效应。对于科技、可选消费等估值偏高板块，业绩容错空间收窄，容易引发获利了结，市场或进入选股分化阶段。",
+      "headline": "芯片板块疲弱拖累美股收跌，抵消强劲经济数据",
+      "facts": "美股收盘下跌，芯片类股的持续弱势抵消了部分企业稳健的盈利和经济数据带来的正面影响；此前芯片股已接近熊市区域，投资者对贸易与需求前景担忧加剧。",
+      "stance": "bearish",
+      "impact": "半导体板块的疲软直接拉低科技股和以芯片为主要权重的指数，资金可能从高估值芯片股流出，转向防御性板块，短期内芯片股或继续承压，拖累纳斯达克等指数。",
       "sources": [
        {
-        "title": "Reuters · 盈利增长压力攀升，美股反弹承压",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOV9wcVZ4Mnl3Z0d6dlFUTUN5N2otMzk5WjIzbFRaZnBRVnJZWWJ6T21WeGQwajZDSXR3YWNmRzk2VkJfU0hzSUJDY0REb3hRRlltRG95UlpVNlZLUi1faW00U2J0LTQ4bVZoNjVPSFJhd2wyVlZPZl8tSk1ESkxGS0hnM3NkZTVQenE1YmtUaS0tSE1kY2ZWeVY3MXVpLTNSRVk3UVBNU2JRRDE0MGRJamMxRDRwT1Zt?oc=5"
+        "title": "Reuters · Wall Street ends lower as chip weakness offsets solid earnings, economic data",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGU5QUxvUmRMUXgzYmxBbXIxRnM5aTE2Q014TV9HeVlIdVQ0RGV4aWx3a0RMQ2djdUdvSEwtX2diaDZ2QkhfaWE4WmFpb1pWTzlsajhWaTdqYWp4N0hnSjRRWGVIQU93VnA1czVqOGZYekhOMDNWMmZFSnVxTmxybHhxR2NLTVJDR3NxWVE5ZDFEUC11N2NvU0NXSTJrbTJXbXNsQjZsZklUb19vVy1wMi1mU1YxSGc?oc=5"
        }
       ]
      }
@@ -53,29 +53,25 @@
    "hk": {
     "items": [
      {
-      "headline": "恒指涨580点收复两万五，科网与能源双驱动",
-      "facts": "恒生指数收涨580点，重返25000点关口；恒生科技指数升近3%。阿里巴巴、腾讯等大型科网股领涨，加上石油股造好，推动大市强力反弹。市场传闻大陆官方资金护盘，A股同步拉升。",
+      "headline": "恒指飙580点重上两万五，科网与能源股双轮驱动",
+      "facts": "恒生指数收盘大涨580点（+2.36%），收复25000点，恒生科技指数升近3%。阿里巴巴弹高4%，腾讯升3%，三桶油造好，中资金融股亦上扬，惟智谱AI概念股逆市跌近两成。",
       "stance": "bullish",
-      "impact": "科网股强势反弹有望修复板块估值，吸引资金回流新经济板块；能源股受油价支撑表现稳健，形成对指数稳定的助力。两大板块联动上涨或在短期强化港股多头氛围，改善市场流动性及情绪。",
+      "impact": "科网与能源板块成为上涨主力，显示资金回流大型科技股及受油价支撑的能源股；AI应用概念股出现明显回吐，板块内部分化加剧，投资者宜关注高估值品种的获利压力。",
       "sources": [
        {
-        "title": "RTHK News · 恒指高收580点，科指升近3%",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyby16OWQxVlQ3SGZZUVN2ekh3QkdZUjQ5SGNSYncwVkktZW1tWDFTbnhJT1lVa2UtdkVfYUhUS3hFZ1BjWFhtT2ZBMTV3SmdzVTQ3Y0l6V0xlTENWUEM3YjNseWhlQ0MzeXdXTmtYNA?oc=5"
-       },
-       {
-        "title": "UDN · 港股大爆发，传大陆官方护盘",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3eW05a1g0SzNGVnZXa3c3dTNoTzdFOGlVQU44NE1RVzFxS2R5WENrVFpjY1FRLUhncTZFUFZqVkphYUNodEwzYlhOR0JCTkxk?oc=5"
+        "title": "香港經濟日報 · 港股收市：恒指升580點阿里巴巴、騰訊升3% 兩桶油造好智譜挫近兩成跌穿1000元",
+        "url": "https://news.google.com/rss/articles/CBMi-wRBVV95cUxOOFFhYkpXOVRNQUdOT2ExS0k1Q185YzNZYklkSXZWNjRPTTRyeTczZGFVM1lKSFRsRzlPclhnT0lwckZLRGtQWi1VeUVuelh2UlNUZDNqTkEwaTVja1RwcHRCekJOSU9sSGN6UzBXWURzeS1RSHdDQjlsOGd4cHN2T0NCV245M2RXbFVMLXhwNDdSSEVqQ3J0aFRua2FUYi1wcEhGaWtPWElZbWYzZHpudjZlQTI1cHd1VWhtYWc0S2JndTZGcDFCSjRxNXlJSUc2UlM4V3Z3S3lfMncwYmpvRmNtVjFBclA3cEZHUl96dXE3OS1NNTQ2a09iVk4tNGNwbC1zWjFaa29OcVhzZmJ6RjRCUlJKZ3FHcndmNkUwWjFxYmw5T1BhbFBjMzhtY05BczVMV3pxTEtoc0tTck1wR0NhUTlkMU5SaDFGa3BNSzFadDdYb2pYLVZiN3ZHY2ljUW4zenByRWJkUzVpT1JSN1UzMVhibnhrcDlNVHgzYldXOUlDemVDR0dIbjRueFRnRGZnMy1Fc2xuMzA5V1ExaWZja0k0V21obHNiNG1CckVNdWRrc013VWhYeEVKSEc0UXRwaTVBdm5iTTZmcG9OSXdrMUNpM3hqSlRSa0c3TE1vQjY0eDdyelZLdDQwakZyVTRqSWRlVy1nWEEtT1VTX29uMlNDdTBqUHJyRjdZQjR3X0Z0SmJMZHhPbW4xUGM3emVnZnBSWnN3WXA3dTV6WERkNEZUcVhTa19YMjZBTHY1MUNRTzNkWEJMZ0NTSDlVWGZGbE5IWTJ0OTVTcjRGQ191dHBZRzFuMW5YZktCTm9mTzNKakwzNzRBSQ?oc=5"
        }
       ]
      },
      {
-      "headline": "港交所拟延长交易时段，取消午休并研究晚市",
-      "facts": "港交所正在研究延长交易时间的方案，考虑提早至上午9时开市并取消午间休市，同时探讨增设晚间交易时段以配合美股。港交所回应称相关优化建议仍处于非常早期的探讨阶段。",
+      "headline": "港交所研延长交易时段，拟取消午休并设晚市",
+      "facts": "消息指港交所研究延长港股交易时段，方案包括提早至早上9时开市、取消午间休市、以及研究增设晚间时段以配合美股；港交所回应称优化建议处于非常早期的探讨阶段。",
       "stance": "bullish",
-      "impact": "交易时间延长有助于提升港股市场流动性，并加强与A股及美股的衔接，吸引更多跨市场资金参与。若改革推进，港交所及本地券商板块将直接受益于日均成交额的潜在增长，同时强化香港作为国际金融中心的竞争力。",
+      "impact": "若交易时间延长方案落实，将直接提升市场交易活跃度及日均成交额，对港交所以及本地券商、金融科技板块构成基本面利好，市场预期将吸引更多跨市场资金参与。",
       "sources": [
        {
-        "title": "Yahoo 財經 · 港交所研延長交易時段，取消午休",
+        "title": "Yahoo財經 · 港股市場｜港交所研延長交易時段 擬提早至早上9時開市 取消午休 研增晚市配合美股",
         "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxNNXVXQUNCN1N6al9wbVA3ZTRmSmktQkU1NU13SnhKaVViUDFoMWpkbU5FampHQ0RRelFCdFg4NUc3T1lqb1B4cGxRQWxKS1BvajFsbVZ1UjRfTlBLYlV6eXliQnFNWXRwQUhxYU9kWllEa0dUbjN2LS1hOUcyVmVwamlIS1hwcTROUE5TZ2hfel9VMF9oMURGVmRtMFlsdS1LSnlHQkNGSlRCNHFkUkdhNzZPRWMwOXZwWHA3Zks4YzU5T1hTYURyNlBRT25HN3VjdC1XZnFINElLNVBlcXRzVGtieTVDWG15dHVqbURVeC01eU96Sk5YOXFHUVJxMVB3Q2s4VThwSmhfU0V3R1pzUHdFbEtXSGJTa05jcnU2OUVEMDNHV21EOWs0U1prTTNlZXI2Z1l3Z0M0OHJVR2t4dkk3Q2RXdFQtelNkVGdlUjlIbnpMU3NoZGc0ZXZObmR4b1ZNTUNkMEwzVy11Rkc1a011Wlp3LVdYQUJBc0NXWjFEN0ZmT0NCek14T1czRW8zcEVOc1N3V25tNjQ3T0JjSWJ5R3AwdTAtSG9HVXFPVEt6Rk5iRjRKb19neENSMWp0Qm90M3JzS2pmZmxzYXRzWTFYSlU0MmNKQ09WQzlnVTNLc0U2NjY2TjlLNmt1ZmFnQ3UtYXQ3djhGUXhEbWZXSGJEdlJaTUF2?oc=5"
        }
       ]
@@ -224,147 +220,137 @@
    ]
   },
   "calendar": {
-   "generatedAt": "2026-07-08",
-   "reviewRange": "6/23 - 7/7",
-   "previewRange": "7/8 - 7/17",
+   "generatedAt": "2026-07-20",
+   "reviewRange": "7/13 - 7/17",
+   "previewRange": "7/20 - 7/31",
    "econReview": [
     {
-     "date": "2026-07-02",
+     "date": "2026-07-14",
      "country": "US",
-     "event": "非农就业 (6月)",
+     "event": "CPI 通胀 (6月)",
      "importance": 3,
-     "actual": "+5.7万",
-     "forecast": "+11.5万",
-     "previous": "+12.9万",
-     "note": "远逊预期，4–5月合计下修7.4万，就业明显降温"
+     "actual": "+3.5%",
+     "forecast": "+3.8%",
+     "previous": "—",
+     "note": "全面降温:核心 2.6%,环比 -0.4% 创 2020 年 4 月以来最大降幅(能源大跌拉动),降息预期升温"
     },
     {
-     "date": "2026-07-02",
-     "country": "US",
-     "event": "失业率 (6月)",
-     "importance": 2,
-     "actual": "4.2%",
-     "forecast": "4.3%",
-     "previous": "4.3%",
-     "note": "因劳动参与率降至61.5%（2021年3月来最低）而被动走低"
-    },
-    {
-     "date": "2026-07-01",
-     "country": "US",
-     "event": "ISM 制造业 PMI (6月)",
-     "importance": 2,
-     "actual": "53.3",
-     "forecast": "54.0",
-     "previous": "54.0",
-     "note": "扩张动能放缓"
+     "date": "2026-07-15",
+     "country": "CN",
+     "event": "中国 GDP (Q2, 同比)",
+     "importance": 3,
+     "actual": "+4.3%",
+     "forecast": "+4.5%",
+     "previous": "+5.0%",
+     "note": "2022 年末以来最弱,低于官方目标区间下限;内需疲弱+地产拖累,政策加码预期升温(上半年累计 +4.7%)"
     }
    ],
    "econPreview": [
     {
-     "date": "2026-07-08",
+     "date": "2026-07-29",
      "country": "US",
-     "event": "FOMC 会议纪要",
+     "event": "FOMC 利率决议",
      "importance": 3,
      "forecast": "—",
      "previous": "—",
-     "note": "6月议息纪要，寻找利率路径与通胀立场线索"
+     "note": "7/28-29 议息;CPI 降温后市场聚焦下半年降息路径与鲍威尔表态"
     },
     {
-     "date": "2026-07-14",
+     "date": "2026-07-30",
      "country": "US",
-     "event": "CPI (6月)",
+     "event": "GDP 初值 (Q2, 环比年化)",
      "importance": 3,
-     "forecast": "3.9%",
-     "previous": "4.2%",
-     "note": "本周最重磅；核心CPI 5月2.9%创2025年9月来新高，克利夫兰联储 nowcast 指向近4%，通胀黏性强化加息担忧"
+     "forecast": "—",
+     "previous": "—",
+     "note": "二季度经济增长首份读数,验证软着陆叙事"
     },
     {
-     "date": "2026-07-15",
+     "date": "2026-07-30",
      "country": "US",
-     "event": "PPI (6月)",
+     "event": "核心 PCE 物价指数 (6月)",
+     "importance": 3,
+     "forecast": "—",
+     "previous": "—",
+     "note": "美联储最看重的通胀指标,与 GDP 同日公布"
+    },
+    {
+     "date": "2026-07-31",
+     "country": "US",
+     "event": "就业成本指数 (Q2)",
      "importance": 2,
      "forecast": "—",
      "previous": "—",
-     "note": "生产端通胀，交叉验证 CPI 趋势"
-    },
-    {
-     "date": "2026-07-16",
-     "country": "US",
-     "event": "零售销售 (6月)",
-     "importance": 2,
-     "forecast": "—",
-     "previous": "—",
-     "note": "消费韧性关键读数"
+     "note": "薪资通胀压力观察窗口;同日密歇根消费者信心终值"
     }
    ],
    "earnReview": [
     {
-     "date": "2026-06-30",
-     "ticker": "NKE",
-     "name": "耐克",
+     "date": "2026-07-16",
+     "ticker": "TSM",
+     "name": "台积电",
      "market": "US",
-     "epsActual": "0.72",
-     "epsEst": "0.11"
-    },
-    {
-     "date": "2026-06-23",
-     "ticker": "FDX",
-     "name": "联邦快递",
-     "market": "US",
-     "epsActual": "6.31",
-     "epsEst": "5.91"
-    }
-   ],
-   "earnPreview": [
-    {
-     "date": "2026-07-09",
-     "ticker": "PEP",
-     "name": "百事",
-     "market": "US",
-     "epsEst": "2.21",
-     "revEst": "239.7亿",
-     "mktCap": "大"
-    },
-    {
-     "date": "2026-07-14",
-     "ticker": "JPM",
-     "name": "摩根大通",
-     "market": "US",
-     "epsEst": "5.61",
-     "revEst": "498.2亿",
-     "mktCap": "大"
-    },
-    {
-     "date": "2026-07-14",
-     "ticker": "GS",
-     "name": "高盛",
-     "market": "US",
-     "epsEst": "14.01",
-     "revEst": "160.2亿",
-     "mktCap": "大"
-    },
-    {
-     "date": "2026-07-15",
-     "ticker": "MS",
-     "name": "摩根士丹利",
-     "market": "US",
-     "epsEst": "2.83",
-     "revEst": "192.9亿",
-     "mktCap": "大"
-    },
-    {
-     "date": "2026-07-15",
-     "ticker": "ASML",
-     "name": "阿斯麦",
-     "market": "US",
-     "epsEst": "8.02",
-     "revEst": "103.7亿",
-     "mktCap": "大"
+     "epsActual": "4.31 (ADR)",
+     "epsEst": "超预期"
     },
     {
      "date": "2026-07-16",
      "ticker": "NFLX",
      "name": "奈飞",
+     "market": "US",
+     "epsActual": "0.80",
+     "epsEst": "0.79"
+    }
+   ],
+   "earnPreview": [
+    {
+     "date": "2026-07-22",
+     "ticker": "GOOGL",
+     "name": "谷歌",
+     "market": "US",
+     "epsEst": "—",
+     "revEst": "—",
+     "mktCap": "大"
+    },
+    {
+     "date": "2026-07-22",
+     "ticker": "TSLA",
+     "name": "特斯拉",
+     "market": "US",
+     "epsEst": "—",
+     "revEst": "—",
+     "mktCap": "大"
+    },
+    {
+     "date": "2026-07-29",
+     "ticker": "MSFT",
+     "name": "微软",
+     "market": "US",
+     "epsEst": "—",
+     "revEst": "—",
+     "mktCap": "大"
+    },
+    {
+     "date": "2026-07-29",
+     "ticker": "META",
+     "name": "Meta",
+     "market": "US",
+     "epsEst": "—",
+     "revEst": "—",
+     "mktCap": "大"
+    },
+    {
+     "date": "2026-07-30",
+     "ticker": "AAPL",
+     "name": "苹果",
+     "market": "US",
+     "epsEst": "—",
+     "revEst": "—",
+     "mktCap": "大"
+    },
+    {
+     "date": "2026-07-30",
+     "ticker": "AMZN",
+     "name": "亚马逊",
      "market": "US",
      "epsEst": "—",
      "revEst": "—",
